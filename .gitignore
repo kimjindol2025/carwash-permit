@@ -1,0 +1,28 @@
+node_modules/
+.env
+.env.local
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# SQLite WAL/SHM 임시 파일
+*.db-shm
+*.db-wal
+
+# 업로드 파일
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 테스트
+coverage/
+.nyc_output/
+
+# PM2
+ecosystem-local.config.js
