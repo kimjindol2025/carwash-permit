@@ -1,0 +1,35 @@
+{
+  "name": "carwash-permit",
+  "version": "1.0.0",
+  "description": "세차장 허가 자동 체크 서비스",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "USE_MOCK=true node server.js",
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "carwash",
+    "permit",
+    "자동차",
+    "세차장",
+    "허가"
+  ],
+  "author": "Kim",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-rate-limit": "^8.3.2",
+    "iconv-lite": "^0.7.2",
+    "multer": "^2.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
